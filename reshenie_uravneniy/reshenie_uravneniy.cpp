@@ -49,7 +49,7 @@ int main()
 	}
 
 	// создание матрицы A и B (переменные и ответы)
-	double** MatricaA = new double* [rows];
+	double** MatricaA = new double*[rows];
 	for (int i = 0; i < rows; ++i) {
 		MatricaA[i] = new double[columns];
 	}
