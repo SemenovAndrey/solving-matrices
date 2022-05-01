@@ -194,7 +194,7 @@ void privedeine_k_treug_vidu(double* ArrayA[], double ArrayB[], int rows, int co
 			infile << "Проделав преобразования с " << i + 1 << "-ым столбцом, получаем следующую матрицу:" << endl;
 			print_new_matrica(NewMatrix, rows, columns + 1);
 		}
-		else if (i == 2) {
+		else if (i + 1 == 2) {
 			infile << "Проделав преобразования со " << i + 1 << "-ым столбцом, получаем следующую матрицу:" << endl;
 			print_new_matrica(NewMatrix, rows, columns + 1);
 		}
@@ -203,6 +203,10 @@ void privedeine_k_treug_vidu(double* ArrayA[], double ArrayB[], int rows, int co
 			print_new_matrica(NewMatrix, rows, columns + 1);
 		}
 		else if ((i + 1) % 10 == 3) {
+			infile << "Проделав преобразования с " << i + 1 << "-им столбцом, получаем следующую матрицу:" << endl;
+			print_new_matrica(NewMatrix, rows, columns + 1);
+		}
+		else if (i + 1 == 3) {
 			infile << "Проделав преобразования с " << i + 1 << "-им столбцом, получаем следующую матрицу:" << endl;
 			print_new_matrica(NewMatrix, rows, columns + 1);
 		}
